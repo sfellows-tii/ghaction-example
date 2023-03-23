@@ -4,8 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import lombok.experimental.UtilityClass;
 
-private String apiKey = "P6wa1NepBwp5wssOz9sXj7rfL3sPOvGDBdOC022CyrH5U9UtjmrDuS"; // test for secrets detection
-
 @UtilityClass
 public class Constants {
     public static final String password = "DefaultLoginPasswordDoNotChange!";
@@ -16,6 +14,7 @@ public class Constants {
 public class GhactionExampleApplication {
 
     public static void main(String[] args) {
+        private String apiKey = "P6wa1NepBwp5wssOz9sXj7rfL3sPOvGDBdOC022CyrH5U9UtjmrDuS"; // test for secrets detection
         SpringApplication.run(GhactionExampleApplication.class, args);
     }
 
